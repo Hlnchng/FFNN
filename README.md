@@ -16,7 +16,10 @@ This project was created to strengthen my fundemental knowledge about how a neur
 
 ## Files
 `neural_network.py` - is the actual 'engine' of the neural network.
+
 `model.py` - Puts everything together. Loads in the dataset, establishes the structure of the neural network from neural_network.py, trains the model on the dataset.
+
 `generate_model.py`- generates the actual model from model.py and allows you to modify the hyperparameters of the model. The model is then saved.
+
 `load_model.py` - Loads up the saved model after it has been generated. It also allows you to load in the dataset for the model to make a prediction on.
 
